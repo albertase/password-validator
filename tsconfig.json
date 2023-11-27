@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outDir": "./build",
+    "sourceMap": false,
+    "target": "ES2022",
+    "strict": true,
+    "newLine": "lf",
+    "alwaysStrict": true,
+    "incremental": true,
+    "pretty": true,
+    "moduleDetection": "auto",
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true
+
+  },
+  "include": ["src/**/*"],
+  "exclude": ["**/*.spec.ts"]
+}
